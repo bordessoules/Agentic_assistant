@@ -1,5 +1,5 @@
 # tools/search_web.py
-"""Web search implementation using SearXNG. ols"""
+"""Web search implementation using SearXNG. """
 
 import requests
 from .registry import tool

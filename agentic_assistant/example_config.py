@@ -8,6 +8,10 @@ Copy this file to config.py and update with your actual values.
 SEARXNG_URL = "http://localhost:8080"  # Update with your SearxNG instance URL
 SEARCH_RESULTS_COUNT = 10
 
+# GitHub settings
+GITHUB_PAT = "your_github_pat_here"  # IMPORTANT: Replace with your actual PAT
+GITHUB_RESULTS_LIMIT = 5 # Max results for search
+
 # HTTP request settings
 HTTP_TIMEOUT = 10
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
@@ -16,6 +20,7 @@ USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 BROWSER_TIMEOUT = 300000
 VIEWPORT_WIDTH = 1920
 VIEWPORT_HEIGHT = 1080
+
 
 # UI and display settings
 UI_SETTINGS = {
